@@ -7,9 +7,6 @@
     color: white;
     height: 35px;
   }
-  .header/p {
-    float: middle;
-  }
 
 .postTitle {
     border-style: solid;
@@ -28,4 +25,30 @@
   left: 0px;
   right: 0px;
   margin-bottom: 0px;
+}
+
+#nav {
+	width: 100%;
+  float: left;
+  background-color: deepskyblue;
+}
+
+#nav ul{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+#nav li {
+  float: left;
+  margin-right: 1em;
+  list-style: none;
+  border-bottom: dodgerblue solid 0.1em;
+}
+
+#nav li:hover {
+  font-size: 1.2em;
+}
+
+#nav li a {
+  color: black;
 }
